@@ -6,6 +6,10 @@ Paste a job description + your resume → get a tailored, ATS-friendly resume + 
 
 Built with [Claude Code](https://claude.com/claude-code) as an AI-assisted prototype.
 
+![Landing page](public/screenshots/landing.png)
+
+![Tailor page](public/screenshots/tailor.png)
+
 ---
 
 ## Quickstart
