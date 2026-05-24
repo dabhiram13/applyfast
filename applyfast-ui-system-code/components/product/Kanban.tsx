@@ -1,0 +1,4 @@
+import { applications } from '@/lib/mock';
+import { Badge } from '@/components/ui/Core';
+const colors:any={Saved:'#cbd5e1','Tailor First':'#8B5CF6',Applied:'#22C55E','In Review':'#3B82F6',Interview:'#F59E0B',Offer:'#22C55E',Rejected:'#EF4444'};
+export function TrackerKanban(){return <div className="kanban">{Object.entries(applications).map(([stage,items])=><div className="kanban-col" key={stage} style={{borderTop:`3px solid ${colors[stage]}`}}><div className="kanban-title">{stage} <span className="caption">{items.length}</span></div>{items.map((x,i)=><div className="kanban-card" key={x}><b>{x}</b><div className="caption">Software Engineer</div>{i===0&&<div style={{marginTop:8}}><Badge tone={stage==='Rejected'?'red':stage==='Interview'?'orange':stage==='In Review'?'blue':'green'}>{stage==='Saved'?'Added':stage}</Badge></div>}</div>)}<div className="caption" style={{padding:8}}>+ Add Application</div></div>)}</div>}
