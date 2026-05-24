@@ -4,7 +4,7 @@
 
 Paste a job description + your resume → get a tailored, ATS-friendly resume + a custom cover letter back, streamed live. One API key. No database. No auth. Pure AI SDK + Next.js + Tailwind.
 
-Built with [Claude Code](https://claude.com/claude-code) as an AI-assisted prototype.
+
 
 ![Landing page](public/screenshots/landing.png)
 
