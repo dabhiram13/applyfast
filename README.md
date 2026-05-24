@@ -8,7 +8,6 @@ Built with [Claude Code](https://claude.com/claude-code) as an AI-assisted proto
 
 ![Landing page](public/screenshots/landing.png)
 
-![Tailor page](public/screenshots/tailor.png)
 
 ---
 
